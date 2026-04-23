@@ -62,6 +62,7 @@ let g:coc_global_extensions = ['coc-pyright', 'coc-json']
 autocmd FileType python nnoremap <leader>r :w<CR>:!python3 %<CR>
 autocmd FileType javascript nnoremap <leader>r :w<CR>:!node %<CR>
 autocmd FileType sh nnoremap <leader>r :w<CR>:!bash %<CR>
+autocmd FileType java nnoremap <leader>r :w<CR>:!javac % && java %:r<CR>
 
 " ============================================================================
 " 5. NAVIGATION SHORTCUTS
